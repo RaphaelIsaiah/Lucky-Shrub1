@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: #1f2e2c;
+  /* #26877F for font color */
+}
+
+body {
+  margin: 3rem 5% 3rem 5%;
+  background-color: #dab4b241;
+  /* font-family: ; */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+}
+
+/*----------------- Navigation Menu ------------- */
+nav {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #2b262541;
+  border-radius: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  margin: 5rem;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 1em;
+}
+
+li:hover {
+  transform: scale(1.3);
+  transition: 100ms;
+}
+/* ---------------- Main Body -------------- */
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1;
+}
+
+/* -------------- Ad section------------- */
+.img1 {
+  background-image: url("Assets/images/Ad_img2.jpg");
+  height: 100%;
+  background-size: cover;
+  border-radius: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.one {
+  padding: 2em;
+}
+.lightcolor {
+  color: #fffffffa;
+  margin-top: 1rem;
+}
+
+/* ------------- Article content------------- */
+#sectu {
+  margin: 2rem 0;
+}
+
+.singles {
+  background-color: #e9e8db;
+  padding: 1rem;
+  border-radius: 1rem;
+  padding: 1em;
+}
+
+.singles:hover {
+  transform: scale(1.02);
+  transition: 1s;
+}
+
+.mid1 {
+  margin: 1rem 0.4rem 0 0;
+}
+
+.mid2 {
+  margin: 1rem 0.1rem 0 0.1rem;
+}
+
+.mid3 {
+  margin: 1rem 0 0 0.4rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.blimage img {
+  margin: auto;
+  width: 22rem;
+  height: 15rem;
+  border-radius: 1em;
+}
+
+/* ----------Footer-------- */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div > img {
+  width: 5rem;
+  height: 5rem;
+}
+
+footer div {
+  flex: 1;
+  margin-left: 0.5rem;
+  border-top: 2px dashed #555448;
+  padding-top: 1rem;
+}
+
+footer p {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
