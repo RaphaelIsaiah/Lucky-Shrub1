@@ -40,8 +40,6 @@ nav ul {
 
 nav li {
   display: inline-block;
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
   padding: 0.8rem 1rem;
 }
 
@@ -50,12 +48,10 @@ li a {
   margin: 5rem;
   font-size: 1.3em;
   font-weight: 600;
-  /* padding: 1em; */
 }
 
 li:hover {
   transform: scale(1.2, 1.1);
-  /* transition: 100ms; */
   background-color: rgb(182, 171, 171);
   border-radius: 0.7rem;
   padding: 0.61rem 1rem;
@@ -78,8 +74,7 @@ article {
   border-radius: 0.5em;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: rgb(65, 62, 62); */
-  background-color: rgb(20, 19, 19);
+  background-color: rgb(54, 51, 51);
   background-blend-mode: overlay;
 }
 
